@@ -1,0 +1,25 @@
+.Card {
+	/* border: red solid 2px; */
+	margin-top: 10px;
+	width: fit-content;
+	padding: 0 0 20px 0;
+	text-align: center;
+	box-shadow: 8px 8px 22px -1px rgba(0, 0, 0, 0.86);
+	-webkit-box-shadow: 8px 8px 22px -1px rgba(0, 0, 0, 0.86);
+	-moz-box-shadow: 8px 8px 22px -1px rgba(0, 0, 0, 0.86);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	overflow: hidden;
+}
+
+.Card > img {
+	width: 200px;
+}
+.Card > img:hover {
+	transform: scale(1.15);
+	transition: transform 2s;
+}
+
+.Card > h2 {
+	cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.ToTop {
+	background-color: yellow;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding-top: 3px;
+	padding-left: 3px;
+	position: sticky;
+	bottom: 10px;
+	left: calc(100vw - 5vw);
+	cursor: pointer;
+}

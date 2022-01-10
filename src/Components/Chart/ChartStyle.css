@@ -1,0 +1,15 @@
+.Chart {
+	height: 50vh;
+	box-shadow: 8px 8px 22px -1px rgba(0, 0, 0, 0.86);
+	-webkit-box-shadow: 8px 8px 22px -1px rgba(0, 0, 0, 0.86);
+	-moz-box-shadow: 8px 8px 22px -1px rgba(0, 0, 0, 0.86);
+	width: 165vh;
+	border-radius: 10px;
+}
+
+.Chart > h1 {
+	padding: 10px 0 0 50px;
+}
+.Chart > div {
+	padding-top: 2vh;
+}

@@ -1,0 +1,30 @@
+.LeftNav {
+	flex: 1;
+	position: sticky;
+	background-color: rgb(238, 240, 240);
+	top: 42px;
+	height: calc(100vh - 50px);
+}
+.LeftNav > ul {
+	margin-top: 50px;
+	margin-left: 20px;
+	/* text-decoration: none; */
+}
+
+.LeftNav > ul > li {
+	list-style-type: none;
+	display: flex;
+	margin-top: 30px;
+	/* border: red solid 3px; */
+	cursor: pointer;
+	/* text-decoration: none; */
+}
+
+.LeftNavText {
+	display: flex;
+	text-decoration: none;
+}
+.LeftNavText > p {
+	font-size: 20px;
+	margin-left: 10px;
+}

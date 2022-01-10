@@ -1,0 +1,16 @@
+.AddUser {
+	text-align: center;
+	margin-top: 5vh;
+	flex: 4;
+}
+.AddUserForm {
+	margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+}
+
+.AddUserButton {
+	margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+}
